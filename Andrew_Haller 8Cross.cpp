@@ -60,7 +60,9 @@ int main(){
      
       c--;
      
-      if (c==-1) {return 0;}
+      if (c==-1) {
+	return 0;
+      }
     }
     else {
       q[c]=0;
@@ -68,17 +70,17 @@ int main(){
     
     while (c>=0){
       q[c]++;
-      
+	    
       if (q[c]==9){
         c--; 
       }
         
-         else if (c==-1) {return 0;}
+         else if (c==-1) {
+		 return 0;
+	 }
       
       else {
-        
-          if  (ok(q,c)) {
-        
+          if (ok(q,c)) { 
           break;
             }
           }
