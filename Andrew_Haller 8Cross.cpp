@@ -70,7 +70,8 @@ int main(){
       q[c]++;
       
       if (q[c]==9){
-        c--; }
+        c--; 
+      }
         
          else if (c==-1) {return 0;}
       
